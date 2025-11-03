@@ -1,7 +1,7 @@
 // ex00.js
 
 function multiplyNumber(a, b) {
-	return a * b;
+	return parseInt(a * b);
 }
 
 console.log(multiplyNumber(0, -1)); // Résultat attendu: 0
