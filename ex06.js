@@ -1,4 +1,4 @@
-// ex05.js
+// ex06.js
 
 function isEnoughMoney(price, wallet) {
 	if (price < wallet) {

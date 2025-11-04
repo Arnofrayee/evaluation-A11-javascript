@@ -1,4 +1,4 @@
-// ex04.js
+// ex05.js
 
 function isSumEven(a, b) {
 	if ((a + b) % 2 === 0) {
