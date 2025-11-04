@@ -3,7 +3,9 @@
 function isEnoughMoney(price, wallet) {
 	if (price < wallet) {
 		return true;
-	} else return false;
+	} else {
+		return false;
+	}
 }
 
 console.log(isEnoughMoney(10, 0)); // Résultat attendu: false
