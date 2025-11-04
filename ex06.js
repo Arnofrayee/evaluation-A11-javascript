@@ -1,18 +1,10 @@
-// ex06.js
+// ex05.js
 
-function getReduction(price, age) {
-	if (age <= 5) {
-		return 0;
-	}
-	if (age < 5 && age <= 18) {
-		return price - price * 0.5;
-	}
-	if (age > 18 && age <= 25) {
-		return price - price * 0.3;
-	}
-	if (age > 25) {
-		return price;
-	}
+function isEnoughMoney(price, wallet) {
+	if (price < wallet) {
+		return true;
+	} else return false;
 }
-console.log(getReduction(10, 5)); // Résultat attendu: 0
-console.log(getReduction(150, 25)); // Résultat attendu: 45
+
+console.log(isEnoughMoney(10, 0)); // Résultat attendu: false
+console.log(isEnoughMoney(5, 25)); // Résultat attendu: true
